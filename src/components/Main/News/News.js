@@ -7,9 +7,9 @@ const News = () => {
     return (
         <div className='container mt-32'>
             <h1 className='text-2xl mb-4'>Новости</h1>
-            <div className='flex items-start justify-between'>
+            <div className='xl:flex items-start justify-between sm:block'>
                 {Banner.map(item => (
-                    <div>
+                    <div className='sm:pb-2 xl:border-hidden sm:border-b sm:border-gray-600'>
                         <img
                             src={item.bannerImg}
                             alt='image'
@@ -20,7 +20,7 @@ const News = () => {
                             <span className='text-gray-400 text-sm py-4'>{item.bannerData}</span>
                             <h3 className='text-textColor text-xl py-4'>{item.bannerTitle}</h3>
                             <p className='text-textColor text-sm'>{item.bannerDescription}</p>
-                            <NavLink to='/partfolio' className='flex items-center justify-end text-green'>
+                            <NavLink to='/partfolio' className='flex items-center justify-end text-green sm:hidden'>
                                 Портфолио
                                 <span className='text-green'>
                                     <Arrow/>
@@ -29,9 +29,10 @@ const News = () => {
                         </div>
                     </div>
                 ))}
-                <div  className='flex-col items-center justify-between'>
+
+                <div  className='flex-col items-center justify-between sm:mt-4'>
                     {DataNews.map(item => (
-                        <div key={item.id} className='flex items-start mb-2'>
+                        <div key={item.id} className='flex items-start mb-2 xl:border-hidden sm:pb-2 sm:border-b sm:border-gray-600'>
                             <img
                                 src={item.image}
                                 alt={item.title}

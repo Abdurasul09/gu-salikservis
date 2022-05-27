@@ -8,9 +8,9 @@ import {NavLink} from "react-router-dom";
 const Hero = () => {
     return (
         <div>
-            <div className='container flex items-center justify-between'>
-                <div className='flex items-center justify-between mt-20'>
-                    <div className='w-1/2 leading-8'>
+            <div className='container xl:m-0 sm:mt-96 '>
+                <div className='xl:flex xl:items-center justify-between mt-20 sm:block'>
+                    <div className='xl:w-1/2 leading-8 sm:w-full'>
                         <div>
                             <span className='text-green'>Привет,</span>
                         </div>
@@ -26,14 +26,14 @@ const Hero = () => {
                                 использовании продукта
                             </p>
                         </div>
-                        <div className='flex items-center mt-10'>
-                            <button className='flex items-center bg-green text-white p-2 rounded'>
+                        <div className='flex items-center mt-10 sm:block'>
+                            <button className='flex items-center justify-center bg-green text-white p-2 rounded sm:w-full'>
                                 Давайте поговорим
                                 <span className='ml-2'>
                                     <Message/>
                                 </span>
                             </button>
-                            <NavLink to='/partfolio' className='flex items-center ml-6'>
+                            <NavLink to='/partfolio' className='flex items-center ml-6 sm:ml-0 sm:text-2xl  sm:mt-2'>
                                 Портфолио
                                 <span className='text-yellow'>
                                     <Arrow/>
@@ -43,7 +43,7 @@ const Hero = () => {
                         <img
                             src={vector}
                             alt="vector"
-                            className='absolute top-48 right-0 left-4'
+                            className='absolute top-48 right-0 left-4 xl:block sm:hidden'
                             width={85}
                             height={80}
                         />
@@ -51,6 +51,7 @@ const Hero = () => {
                     <div>
                         <div>
                             <img
+                                className='xl:block sm:hidden'
                                 src={pointImg}
                                 alt="image"
                                 width={300}
@@ -58,7 +59,7 @@ const Hero = () => {
                             />
                             <div>
                                 <img
-                                    className='absolute top-36 right-36'
+                                    className='absolute xl:top-36 xl:right-36 sm:top-16 sm:right-4'
                                     src={groupImg} alt="image"
                                     width={350}
                                     height={350}

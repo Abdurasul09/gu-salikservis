@@ -6,9 +6,9 @@ const OurPartners = () => {
         <div className='mt-32'>
             <div className='container'>
                 <h1 className='text-2xl mb-4'>Наши партнеры</h1>
-                <div className='flex items-center'>
+                <div className='flex items-center partners'>
                     {Data.map(el => (
-                        <div key={el.id} className='flex items-center w-1/3'>
+                        <div key={el.id} className='flex items-center'>
                             {el.image2 ? (
                                 <>
                                     <img

@@ -4,9 +4,9 @@ import {Faisboock, In, Instagram, Telegram, Tweeter} from "../../svg/svg";
 
 const Footer = () => {
     return (
-        <div className='dark:bg-bgFooter'>
+        <div className='dark:bg-bgFooter mt-32'>
             <div className='container'>
-                <footer className="container p-4 bg-bgFooter sm:p-6 flex items-start justify-between">
+                <footer className="bg-bgFooter py-6 xl:flex items-start justify-between sm:block">
                     <div className='w-1/4'>
                         <div className="flex items-center">
                             <a href='#'>
@@ -17,13 +17,13 @@ const Footer = () => {
                                 <p className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Сервис</p>
                             </div>
                         </div>
-                        <p>
+                        <p className='mt-2 text-sm'>
                             Государственное учреждение “Салык Сервис” при ГНС МФ КР
                         </p>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold text-textColor uppercase">Mеню</h2>
+                    <div className="grid xl:grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-1">
+                        <div className='pl-20 xl:block sm:hidden'>
+                            <h2 className="mb-6 text-sm font-semibold text-textColor uppercase ">Mеню</h2>
                             <ul className="text-textColor">
                                 <li className="mb-2">
                                     <a href="#" className="hover:underline">О нас</a>
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='xl:m-0 sm:mt-8'>
                             <h2 className="mb-6 text-sm font-semibold text-textColor uppercase">Подписывайтесь на нас</h2>
                             <ul className="text-textColor">
                                 <li className="mb-4 flex items-center">
@@ -93,7 +93,7 @@ const Footer = () => {
                                 </li>
                                 <li className='mt-2'>
                                     <h1>Сайт Разработан:</h1>
-                                    <div className="flex items-center">
+                                    <div className="flex items-center mt-1">
                                         <a href='#'>
                                             <img src={img} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
                                         </a>
@@ -107,6 +107,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </footer>
+            </div>
+            <div className='xl:hidden text-center text-gray-600 bg-gray-300 p-2 sm:block'>
+                <h1>2022 ГУ “Салык Сервис”</h1>
             </div>
         </div>
     );

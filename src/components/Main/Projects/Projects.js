@@ -6,8 +6,8 @@ const Projects = () => {
     return (
         <div className='container mb-4'>
             <h1 className='text-2xl mb-4'>Наши проекты</h1>
-            <div className='flex items-start'>
-                <div className='grid grid-rows-2 grid-flow-col gap-8'>
+            <div className='xl:flex items-start sm:block'>
+                <div className='xl:grid grid-rows-2 grid-flow-col gap-8 sm:block'>
                     {ProjectsData.map(el => (
                         <div>
                             <div>
