@@ -27,13 +27,13 @@ const Hero = () => {
                             </p>
                         </div>
                         <div className='flex items-center mt-10 sm:block'>
-                            <button className='flex items-center justify-center bg-green text-white p-2 rounded sm:w-full'>
+                            <button className='flex items-center justify-center bg-green text-white p-2 rounded xl:w-auto sm:w-full'>
                                 Давайте поговорим
                                 <span className='ml-2'>
                                     <Message/>
                                 </span>
                             </button>
-                            <NavLink to='/partfolio' className='flex items-center ml-6 sm:ml-0 sm:text-2xl  sm:mt-2'>
+                            <NavLink to='/partfolio' className='flex items-center ml-6 sm:ml-0 xl:text-xl sm:text-2xl  sm:mt-2'>
                                 Портфолио
                                 <span className='text-yellow'>
                                     <Arrow/>
