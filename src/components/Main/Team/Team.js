@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from "./Slider";
 import SimpleSlider from "./Slider";
 
 const Team = () => {

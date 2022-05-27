@@ -1,5 +1,4 @@
-import React, {lazy} from "react";
-import Hero from "./components/Main/Hero/Hero";
+import React from "react";
 import {Route, Routes} from "react-router-dom";
 import Partfolio from "./pages/partfolio";
 import Home from "./components/Main/Home";
