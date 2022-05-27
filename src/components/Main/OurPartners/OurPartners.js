@@ -8,7 +8,7 @@ const OurPartners = () => {
                 <h1 className='text-2xl mb-4'>Наши партнеры</h1>
                 <div className='flex items-center partners'>
                     {Data.map(el => (
-                        <div key={el.id} className='flex items-center'>
+                        <div key={el.id} className='w-1/4 flex items-center justify-between'>
                             {el.image2 ? (
                                 <>
                                     <img
