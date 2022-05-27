@@ -30,7 +30,7 @@ const News = () => {
                     </div>
                 ))}
 
-                <div  className='flex-col items-center justify-between sm:mt-4'>
+                <div  className='flex-col items-center justify-between xl:m-0 sm:mt-4'>
                     {DataNews.map(item => (
                         <div key={item.id} className='flex items-start mb-2 xl:border-hidden sm:pb-2 sm:border-b sm:border-gray-600'>
                             <img
