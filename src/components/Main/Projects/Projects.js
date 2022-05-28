@@ -4,7 +4,7 @@ import {ArrowLeft} from "../../../svg/svg";
 
 const Projects = () => {
     return (
-        <div className='container mb-4 sm:mt-12 sm:max-w-full'>
+        <div className='container mb-4 sm:mt-12 sm:max-w-full xl:max-w-full'>
             <h1 className='text-2xl mb-4'>Наши проекты</h1>
             <div className='xl:flex items-start sm:block'>
                 <div className='xl:grid grid-rows-2 grid-flow-col gap-8 sm:block'>

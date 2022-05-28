@@ -5,7 +5,7 @@ import {Faisboock, In, Instagram, Telegram, Tweeter} from "../../svg/svg";
 const Footer = () => {
     return (
         <div className='dark:bg-bgFooter mt-32'>
-            <div className='container'>
+            <div className='container xl:max-w-full'>
                 <footer className="bg-bgFooter py-6 xl:flex items-start justify-between sm:block">
                     <div className='w-1/4'>
                         <div className="flex items-center">

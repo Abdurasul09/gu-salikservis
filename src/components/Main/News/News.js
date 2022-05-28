@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 
 const News = () => {
     return (
-        <div className='container mt-32 sm:max-w-full'>
+        <div className='container mt-32 sm:max-w-full xl:max-w-full'>
             <h1 className='text-2xl mb-4'>Новости</h1>
             <div className='xl:flex items-start justify-between sm:block'>
                 {Banner.map(item => (

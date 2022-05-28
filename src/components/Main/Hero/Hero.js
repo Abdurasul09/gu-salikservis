@@ -51,7 +51,7 @@ const Hero = () => {
                         <img
                             src={vector}
                             alt="vector"
-                            className='absolute top-40 right-0 left-4 xl:block sm:hidden'
+                            className='absolute top-48 right-0 left-4 xl:block sm:hidden'
                             width={85}
                             height={80}
                         />
