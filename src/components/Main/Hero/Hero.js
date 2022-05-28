@@ -8,9 +8,9 @@ import {NavLink} from "react-router-dom";
 const Hero = () => {
     return (
         <div>
-            <div className='container xl:m-0 sm:max-w-full'>
-                <div className='xl:flex xl:items-center justify-between mt-20 sm:m-0 sm:block'>
-                    <div className='flex items-center justify-center'>
+            <div className='container xl:m-0 xl:max-w-full sm:max-w-full'>
+                <div className='flex items-center justify-between mt-20 sm:m-0 sm:block'>
+                    <div className='flex items-center justify-center hidden'>
                         <img
                             className='hidden sm:block'
                             src={groupImg} alt="image"
@@ -18,7 +18,7 @@ const Hero = () => {
                             height={350}
                         />
                     </div>
-                    <div className='xl:w-1/2 leading-8 sm:w-full'>
+                    <div className='xl:w-1/2 leading-8  sm:w-full'>
                         <div>
                             <span className='text-green'>Привет,</span>
                         </div>
@@ -51,7 +51,7 @@ const Hero = () => {
                         <img
                             src={vector}
                             alt="vector"
-                            className='absolute top-44 right-0 left-4 xl:block sm:hidden'
+                            className='absolute top-40 right-0 left-4 xl:block sm:hidden'
                             width={85}
                             height={80}
                         />

@@ -6,7 +6,7 @@ const Header = ({active, setActive}) => {
     return (
         <div>
             <nav className="bg-white border-gray-200 px-2 sm:p-2  dark:bg-white">
-                <div className="container sm:p-0 flex flex-wrap justify-between items-center mx-auto">
+                <div className="container sm:p-0 flex items-center justify-between items-center xl:max-w-full">
                     <div className="flex items-center">
                         <a href='#'>
                             <img src={img} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
@@ -21,7 +21,7 @@ const Header = ({active, setActive}) => {
                         data-collapse-toggle="mobile-menu"
                         onClick={() => setActive(!active)}
                         type="button"
-                            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                             aria-controls="mobile-menu" aria-expanded="false"
                     >
                         <span className="sr-only">Open main menu</span>
@@ -39,8 +39,8 @@ const Header = ({active, setActive}) => {
                         </svg>
                     </button>
 
-                    <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-                        <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <div className="hidden w-full xl:block md:w-auto" id="mobile-menu">
+                        <ul className="flex items-center justify-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                             <li>
                                 <a href="#"
                                    className="block py-2 pr-4 pl-3 text-black border-b border-white hover:border-blue-700 md:text-black md:p-0"
