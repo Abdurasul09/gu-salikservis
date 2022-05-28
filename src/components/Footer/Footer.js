@@ -61,19 +61,19 @@ const Footer = () => {
                                     <span>
                                         <Tweeter/>
                                     </span>
-                                    <a href="#" className="hover:underline">Discord</a>
+                                    <a href="#" className="hover:underline">twitter.com</a>
                                 </li>
                                 <li className="mb-4 flex items-center">
                                     <span>
                                         <Instagram/>
                                     </span>
-                                    <a href="#" className="hover:underline">Discord</a>
+                                    <a href="#" className="hover:underline">instagram.com</a>
                                 </li>
                                 <li className="mb-4 flex items-center">
                                     <span>
                                         <Telegram/>
                                     </span>
-                                    <a href="#" className="hover:underline">Discord</a>
+                                    <a href="#" className="hover:underline">t.me</a>
                                 </li>
                             </ul>
                         </div>
