@@ -141,11 +141,11 @@
     }
     .slick-next{
         bottom: -50px;
-        left: 335px;
+        right: 0;
     }
     .slick-prev{
         bottom: -50px;
-        left: 280px;
+        right: 0;
     }
 }
 

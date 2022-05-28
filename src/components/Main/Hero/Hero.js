@@ -10,7 +10,7 @@ const Hero = () => {
         <div>
             <div className='container xl:m-0 xl:max-w-full sm:max-w-full'>
                 <div className='flex items-center justify-between mt-20 sm:m-0 sm:block'>
-                    <div className='flex items-center justify-center hidden'>
+                    <div className='flex items-center justify-center hidden sm:block'>
                         <img
                             className='hidden sm:block'
                             src={groupImg} alt="image"
