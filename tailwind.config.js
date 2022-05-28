@@ -22,15 +22,10 @@ module.exports = {
             },
         },
         screens: {
-            'sm' : '414px',
-            'md': '640px',
-            // => @media (min-width: 640px) { ... }
-
-            'lg': '1024px',
-            // => @media (min-width: 1024px) { ... }
-
-            'xl': '1280px',
-            // => @media (min-width: 1280px) { ... }
+            'sm': {'min': '375px', 'max': '540px'},
+            'md': {'min': '768px', 'max': '991px'},
+            'lg': {'min': '992px', 'max': '1199px'},
+            'xl': {'min': '1200px'},
         },
 
     },

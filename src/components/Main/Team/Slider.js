@@ -12,8 +12,8 @@ const SimpleSlider = () => {
     };
     return (
         <div >
-            <div className='relative p-8'>
-                <div className='mr-32'>
+            <div className='relative p-8 sm:p-0'>
+                <div className='mr-32 sm:m-0'>
                     <Slider {...settings} >
                         <div>
                             <img
@@ -35,7 +35,7 @@ const SimpleSlider = () => {
                         </div>
                     </Slider>
                 </div>
-                <img src={titik} alt="titik" className='absolute top-0 right-12 img' width={200}/>
+                <img src={titik} alt="titik" className='absolute top-0 right-12 img sm:hidden' width={200}/>
             </div>
 
         </div>

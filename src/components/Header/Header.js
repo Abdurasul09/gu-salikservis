@@ -5,8 +5,8 @@ import {Search} from "../../svg/svg";
 const Header = ({active, setActive}) => {
     return (
         <div>
-            <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-white">
-                <div className="container flex flex-wrap justify-between items-center mx-auto">
+            <nav className="bg-white border-gray-200 px-2 sm:p-2  dark:bg-white">
+                <div className="container sm:p-0 flex flex-wrap justify-between items-center mx-auto">
                     <div className="flex items-center">
                         <a href='#'>
                             <img src={img} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
