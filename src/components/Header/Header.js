@@ -5,15 +5,15 @@ import {Search} from "../../svg/svg";
 const Header = ({active, setActive}) => {
     return (
         <div>
-            <nav className="bg-white border-gray-200 px-2 sm:p-2  dark:bg-white">
-                <div className="container sm:p-0 flex items-center justify-between items-center xl:max-w-full">
+            <nav className="bg-white border-gray-200 px-2 sm:p-2  dark:bg-white py-4">
+                <div className="container flex items-center justify-between items-center sm:max-w-full xl:max-w-full">
                     <div className="flex items-center">
                         <a href='#'>
-                            <img src={img} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
+                            <img src={img} className="mr-3 h-14  sm:h-9" alt="Logo"/>
                         </a>
                         <div className='flex-col'>
-                            <p className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Салык</p>
-                            <p className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Сервис</p>
+                            <p className="self-center text-sm font-semibold whitespace-nowrap dark:text-black">Салык</p>
+                            <p className="self-center text-sm font-semibold whitespace-nowrap dark:text-black">Сервис</p>
                         </div>
                     </div>
 

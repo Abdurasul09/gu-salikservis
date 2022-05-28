@@ -4,12 +4,11 @@ import {Data} from "./data";
 const OurPartners = () => {
     return (
         <div className='mt-32'>
-            <div className='container sm:max-w-full'>
+            <div className='container xl:max-w-full sm:max-w-full'>
                 <h1 className='text-2xl mb-4'>Наши партнеры</h1>
                 <div className='flex items-center justify-between sm:block'>
-                    {/*<div className='sm:grid sm:grid-cols-2'>*/}
                         {Data.map(el => (
-                            <div key={el.id} className='w-1/4 flex items-center justify-between sm:w-full sm:mb-4'>
+                            <div key={el.id} className='w-1/4 flex items-center sm:w-full sm:mb-4'>
                                 {el.image2 ? (
                                     <>
                                         <img
@@ -32,8 +31,6 @@ const OurPartners = () => {
                                 <p className='text-xs p-3'>{el.title}</p>
                             </div>
                         ))}
-                    {/*</div>*/}
-
                 </div>
             </div>
         </div>
